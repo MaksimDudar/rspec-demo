@@ -9,7 +9,7 @@ describe Car do
     car.add_fuel 10
 
     #assert
-    expect(car_range).to eq 200
+    expect(car.range).to eq 200
 
   end
 end
